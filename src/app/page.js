@@ -1,6 +1,6 @@
 import LogoName from "@/components/logoName";
 import MyInfo from "@/components/myInfo";
-import Image from "next/image";
+import MyStack from "@/components/stack";
 
 export default function Home() {
   return (
@@ -8,6 +8,7 @@ export default function Home() {
       <div className="flex flex-col">
           <LogoName />
           <MyInfo/>
+          <MyStack/>
       </div>
     </main>
   );
