@@ -1,9 +1,11 @@
-import { Inter } from "next/font/google";
+import { Inter, Varela_Round } from "next/font/google";
+
 import "./globals.css";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 
 const inter = Inter({ subsets: ["latin"] });
+const valeraRound = Varela_Round({ subsets: ["latin"], weight: "400"})
 
 export const metadata = {
   title: "Adrian Lara - Home Page",
@@ -13,7 +15,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} flex min-h-screen flex-col items-center justify-between border-2`}>
+      <body className={`${valeraRound.className} flex min-h-screen flex-col items-center justify-between`}>
         <Header />
         {children}
         <Footer />
