@@ -59,6 +59,18 @@ const frameworks = [
         src: "/nodejs-icon-svgrepo-com.svg",
         alt: "Nodejs logo",
         href: "https://nodejs.org/"
+    }, 
+    {
+        name: "Tailwind CSS",
+        src: "/tailwind-svgrepo-com.svg",
+        alt: "Tailwind logo",
+        href: "https://tailwindcss.com/"
+    },
+    {
+        name: "Chakra UI",
+        src: "/chakraui-svgrepo-com.svg",
+        alt: "ChakraUI logo",
+        href: "https://chakra-ui.com/"
     }
 ]
 
@@ -66,11 +78,11 @@ const frameworks = [
 export default function MyStack() {
     return(
         <div className="space-y-2 mt-6">
-            <h2>My Stack</h2>
+            <h3 className="border-b-2 border-green-300 border-opacity-50 w-fit mb-5">My Stack</h3>
             <div className="grid grid-cols-2 gap-3  md:grid-cols-4 md:gap-3">
             {frameworks.map((framework, index) => (
                 <a key={index} href={framework.href}
-                className="border-2  flex items-center rounded text-sm bg-green-300 w-fit">
+                className="border-2 flex items-center rounded text-sm bg-green-300 w-fit">
                     <img src={framework.src} className="mr-1 bg-white bg-cover" height={10} width={30} alt={framework.alt}/>
                     <p className="text-green-600 font-bold">{framework.name}</p>
                 </a>
