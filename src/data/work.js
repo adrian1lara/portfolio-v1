@@ -26,6 +26,6 @@ export const work = [
         title: 'ShopMe',
         img: shopMe,
         alt: "Shopme web image",
-        description: "This a frontend web design consuming Fake Shop API"
+        description: "frontend Web design consuming Fake Shop API"
     }
 ]
