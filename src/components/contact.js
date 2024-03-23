@@ -8,7 +8,7 @@ export default function ContactMe() {
         <div className="mt-5">
             <h3 className="border-b-2  w-fit border-green-300 border-opacity-50">Get In Touch</h3>
             <div className="mt-3 w-full flex flex-col items-center">
-                <p>Send me email if you want more information!</p>
+                <p>Send me an email if you want more information!</p>
                 <a href="mailto:adrianlara203@gmail.com"
                 className="mt-2 flex items-center bg-green-300 bg-opacity-35 text-green-400 p-2 rounded w-fit" onMouseOver={() => setScale("scale-125 ease-in duration-300 rotate-45")}
                 onMouseOut={()=> setScale("")} >
