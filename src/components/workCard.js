@@ -6,7 +6,7 @@ export default function WorkCard({data}) {
             {data.map((work, index) => (
                 <a key={index} href={work.url} target="_blank"
                 className="max-w-[350px]  p-2 rounded ">
-                <Image src={work.img} width="auto" height="auto" className="rounded h-xl w-xl border-2 border-opacity-50 border-green-300" alt={work.alt}/>
+                <Image src={work.img} width="1280" height="720" className="rounded h-xl w-xl border-2 border-opacity-50 border-green-300" alt={work.alt}/>
                 <div className="p-4 text-center">
                     <h3 className="text-xl font-light capitalize">{work.title}</h3>
                     <p>{work.description}</p>

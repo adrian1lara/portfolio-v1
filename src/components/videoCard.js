@@ -7,7 +7,7 @@ export default function VideoCard({data}) {
             {data.map((video, index) => (
                 <a key={index} href={video.url} target="_blank"
                  className="max-w-[350px] p-2 rounded">
-                <Image src={video.img} height={"auto"} width={"auto"} className="rounded h-xl w-xl" alt={video.alt}/>
+                <Image src={video.img} height={"720"} width={"1280"} className="rounded h-xl w-xl" alt={video.alt}/>
                 <div className="p-4 text-center">
                     <h3 className="text-sm font-light capitalize">{video.title}</h3>
                 </div>
