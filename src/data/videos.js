@@ -2,8 +2,15 @@ import video1 from "@/assets/video1.png"
 import video2 from "@/assets/video2.png"
 import video3 from "@/assets/video3.png"
 import video4 from "@/assets/video4.png"
+import video5 from "@/assets/video5.png"
 
 export const videos = [
+    {
+        title: "Coding Vlog Desarrollando Astraea mi Side Project",
+        img: video5,
+        alt: "miniature of youtube video",
+        url: "https://youtu.be/4EE3x2LNznc"
+    },
     {
         title: "Super chill coding vlog deploying my Frontend Chat-app with vercel",
         img: video1,
