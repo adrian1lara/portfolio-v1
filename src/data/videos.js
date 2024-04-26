@@ -3,8 +3,15 @@ import video2 from "@/assets/video2.png"
 import video3 from "@/assets/video3.png"
 import video4 from "@/assets/video4.png"
 import video5 from "@/assets/video5.png"
+import video6 from "@/assets/video6.png"
 
 export const videos = [
+    {
+        title: "Astraea Mi primera App con React Native",
+        img: video6,
+        alt: "miniature of youtube video",
+        url: "https://youtu.be/SzwLsIV85YA?si=tj78uAK4w71k2jWs"
+    },
     {
         title: "Coding Vlog Desarrollando Astraea mi Side Project",
         img: video5,
