@@ -21,7 +21,7 @@ export default function Header() {
                     </li>
                     <li className={`${isActive("/work") ? "bg-green-300 bg-opacity-25" : ""} p-2 rounded `}>
                         <Link href={"/work"} className={`hover:border-b-2 ease-in duration-200 border-green-300 `} >
-                            Work
+                            Projects
                         </Link>
                         
                     </li>
